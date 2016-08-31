@@ -8,6 +8,7 @@ gem "sinatra-contrib", '~> 1.4.7'
 gem 'puma', '~> 3.6.0'
 
 group :development, :test do
+  gem 'thin'
   gem 'rake'
 end
 
