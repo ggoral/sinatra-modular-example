@@ -4,7 +4,7 @@
 * Automatic Reload
 * Test with: Minitest
 * Persistence with: sinatra-activerecord
-
+* CLI: rake console
 
 ## To Do List
 

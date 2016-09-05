@@ -1,4 +1,4 @@
-class ApplicationController < Sinatra::Application
+class ApplicationController < Sinatra::Base
   helpers ApplicationHelper
 
   # set public folder for static files
