@@ -6,4 +6,6 @@ require File.expand_path(File.join('config', 'application'))
 
 class AppTest < Minitest::Test
   include Rack::Test::Methods
+
+  def app; raise "SubclassResponsibility" ; end
 end
