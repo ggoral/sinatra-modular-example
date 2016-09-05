@@ -1,3 +1,17 @@
+## Features
+
+* Modular Application
+* Automatic Reload
+* Test with: Minitest
+* Persistence with: sinatra-activerecord
+
+
+## To Do List
+
+* Modular App OK
+* Auto Reload OK
+* Test :(
+
 ## Project folder
 
 ```bash
@@ -25,7 +39,6 @@ $ rackup -p 4567
 ```bash
 $ bundle exec puma -C config/puma.rb
 ```
-
 
 ## Contributing
 

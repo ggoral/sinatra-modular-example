@@ -6,10 +6,12 @@ ruby "2.3.0"
 gem "sinatra", '~> 1.4.7'
 gem "sinatra-contrib", '~> 1.4.7'
 gem 'puma', '~> 3.6.0'
+gem 'sqlite3','~> 1.3.11'
+gem 'sinatra-activerecord', '~> 2.0.10'
 
 group :development, :test do
   gem 'thin'
-  gem 'rake'
+  gem 'rake', '~> 11.2.2'
 end
 
 group :test do

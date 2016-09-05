@@ -9,7 +9,7 @@ desc 'Start a console'
 task :console do
   ENV['RACK_ENV'] ||= 'development'
   %w(irb irb/completion).each { |r| require r }
-  require_relative 'config/application'
+  #require_relative 'config/application'
 
   ARGV.clear
   IRB.start
